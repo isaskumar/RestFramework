@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1181" started-at="2019-10-20T18:26:31Z" finished-at="2019-10-20T18:26:32Z">
+  <suite name="Default suite" duration-ms="1084" started-at="2019-10-22T14:03:20Z" finished-at="2019-10-22T14:03:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1181" started-at="2019-10-20T18:26:31Z" finished-at="2019-10-20T18:26:32Z">
+    <test name="Default test" duration-ms="1084" started-at="2019-10-22T14:03:20Z" finished-at="2019-10-22T14:03:21Z">
       <class name="com.qa.test.GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@39fb3ab6]" name="setUp" is-config="true" duration-ms="9" started-at="2019-10-20T20:26:31Z" finished-at="2019-10-20T20:26:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@5afa04c]" name="setUp" is-config="true" duration-ms="7" started-at="2019-10-22T16:03:20Z" finished-at="2019-10-22T16:03:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getTest()[pri:0, instance:com.qa.test.GetAPITest@39fb3ab6]" name="getTest" duration-ms="1148" started-at="2019-10-20T20:26:31Z" finished-at="2019-10-20T20:26:32Z">
+        <test-method status="PASS" signature="getTest()[pri:0, instance:com.qa.test.GetAPITest@5afa04c]" name="getTest" duration-ms="936" started-at="2019-10-22T16:03:20Z" finished-at="2019-10-22T16:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
+        <test-method status="PASS" signature="getApiWithHeaders()[pri:0, instance:com.qa.test.GetAPITest@5afa04c]" name="getApiWithHeaders" duration-ms="126" started-at="2019-10-22T16:03:21Z" finished-at="2019-10-22T16:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiWithHeaders -->
       </class> <!-- com.qa.test.GetAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
